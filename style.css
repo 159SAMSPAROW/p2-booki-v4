@@ -424,7 +424,7 @@ body{
     color:var(--main3);
 }
 .submit:hover{
-  background-color: #deebff;
+  background-color: var(--main2);
   color:var(--main);
 }
 .phone_submit{
