@@ -1,0 +1,240 @@
+@media screen and (max-width: 767px) {
+    body{
+      margin-left: 2px;
+      box-sizing: border-box;
+    }
+    header{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    #logo{
+        width: 100%;
+        height: 50px;
+        margin-left: 35%;
+    }
+    /*----------------HEADER---------------------*/
+    nav{
+        width: 100%;
+    }
+    .head{
+     padding-left: 5px;
+    }
+    .li_head{
+        margin-left: 5px;
+        margin-right: 80px;
+        padding-left: 7px;
+        font-size: large; 
+    }
+    
+    .li_head:hover{
+        text-decoration: underline;
+        font-weight: bold;
+        color:var(--main);
+    }
+ /*-----------------MAIN--------------------------*/
+    .head_title{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+/*--------------------LOCATION BAR---------------------*/
+    #location{
+        width: 100%;
+      margin-top: 20px;
+    }  
+    .fa-location-dot{
+        margin: 7px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .search{
+        width: 100%;
+    }
+    .search_icon{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .submit{
+        display: none;
+    }
+  
+    .phone_submit{
+        display: flex;
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+        padding-right: 2px;
+        
+        border-radius: 15px; 
+        background-color: var(--main);
+        color: var(--main3);
+        font-weight: bold;
+        color: var(--main3);  
+    }
+    .fa-magnifying-glass{
+        margin: 10px;
+    }
+    
+    
+/*--------------FILTERS BAR--------------------*/
+    .filters > h2{
+        width: 100%;
+    }
+    .filters{
+        margin-left: 7px;
+    }
+
+
+    .filters-container-1{
+    margin-right: 40px;
+    } 
+    .filters-container-2{
+        margin-right: 5px;
+    } 
+    .filters-container-3{
+      margin-left: 25px;
+    } 
+    /*.filters-container-4{
+
+    }*/
+
+
+    .filter-label, .filter-label1, .filter-label2, .filter-label3{
+        margin-bottom: 10px;
+        
+   }
+   .filter-label{
+       width: 160px;
+       margin-right: 7px;
+   }
+   .filter-label2{
+       width: 120px; 
+       margin-right: 5px;
+   }
+   .filter-label3{ 
+       margin-left: -25px;
+       width: 160px;
+    }
+   .filter-label4{
+       width: 200px;
+   }
+
+
+    .filters-text-1, .filters-text-2, .filters-text-3, .filters-text-4{
+        font-size: medium;
+        margin: 10px;
+    }
+
+    /*.filters-text-2{}
+    .filters-text-3{}
+    .filters-text-4{}
+    */
+
+ /*-----------------------------BOX CARD ET BOX CARD ASIDE-------------*/
+#box_card1_aside{
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+    background-color: var(--main3);
+    
+  }
+  .box_card{  
+    width: 100%;
+    margin-left: -20px;
+    flex-direction: column;
+    background-color: var(--main3);
+    
+  }
+  .card{
+    width: 99%;
+    box-shadow: 10px 10px 10px var(--secondary);
+    margin-left: 20px;
+  }
+  .img_card{
+    width: 97%;
+  }
+  .box_card_aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #f2f2f2;
+    border-radius: 0px;
+  }
+
+  .card_aside{
+    width: 90%;
+    height: auto;
+   
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .img_aside{
+    width: 45%;
+    
+  }
+  h4{
+    font-size: larger;
+  }
+  
+  .aside_body{
+    font-size: medium;
+  }
+  .notation_bar_aside{
+    padding-top: 45px;
+  }
+  .fa-arrow-trend-up{
+    margin-left: 25%;
+    background-color: var(--secondary);
+  }
+
+/*------------------MARSEILLE ACTIVITIES---------------*/
+.bottom{
+    width: 100%;
+    flex-direction: column;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .card_bottom_tall{
+    width: 100%;
+    height: 200px;
+  }
+  .img_card_bottom_tall{
+    width: 97%;
+    height: 160px;
+    padding-bottom: 5px;
+    margin-left: 4px;
+    margin-top: 6px;
+  }
+  .card_bottom_small{
+    width: 100%;
+    height: auto;
+   
+    
+  }
+  .img_card_bottom_small{
+    width: 97%;
+    height: 160px;
+    margin-left: 6px;
+    margin-top: 6px;
+   
+    padding-bottom: 2px;
+  }
+  .card_small1, .card_small2, .card_small3, .card_small4{
+   width: 100%; 
+   margin-left: 0;  
+  }
+  
+/*------------------------FOOTER----------------------*/
+    footer{
+      width: 100%;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0px;
+      margin-top: 20px;
+    }
+}

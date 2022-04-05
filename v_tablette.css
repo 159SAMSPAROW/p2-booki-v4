@@ -1,0 +1,150 @@
+@media screen and (max-width: 991px) {
+
+    body{
+      margin-left: 1px;
+       width: 100%;
+       height: auto;
+       
+   }
+   /*------------------------ NAV / UL------------------------*/
+  #logo{
+     margin-right: 25%;
+   }
+   header{
+     width: 100%;
+       display: flex;
+   }
+   .li_head{
+     width: auto;
+   }
+   .li_head:hover{
+       text-decoration: overline;  
+   }
+  
+  
+  /*-----------------------BARRE DE RECHERCHE--------------------*/
+   .phone_submit{
+       display: none;
+   }
+  
+   /*----------------------BARRE DES FILTRES--------------------*/
+  .filters-container-1, .filters-container-2, .filters-container-3, .filters-container-4{
+      margin-bottom: 10px;
+  } 
+  .filters-container-2{
+    margin-right: 50px;
+  } 
+  .filters-container-3{
+    margin-left: 25px;
+  } 
+  .filters-container-4{}
+  
+ /*---------------------------BOX CARD & CARS ASIDE-------------*/
+#box_card_box_card_aside{
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+/*----------------------BOX CARDS-----------------------------*/
+.box_card > h2{
+ margin-left: 30px;
+}
+.box_card{
+ width: 100%;
+ height: 95%;
+ display: flex;
+ align-items: center;
+ margin-top: 30px;
+}
+.card{
+ width: 95%;
+ height: 250px;
+ margin-left: 10px;
+ margin-bottom: 20px;
+}
+.text_more{
+  margin-left: 20px;
+}
+
+.box_card_aside{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-color: var(--main3);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20%;
+}
+.fa-arrow-trend-up{
+  background-color: var(--main3);
+  margin-left: 60%;
+}
+.aside_body{
+  margin-right: 5px;
+  margin-left: -20px;
+}
+.aside_body > p{
+  margin-bottom: 5px;
+}
+.box_card_aside > h2{
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.card_aside{ 
+  width: 97%;  
+height: 250px;
+margin: 2px;
+margin-bottom: 100px;
+}
+
+ .img_aside{
+   width: 97%;
+ }
+ .notation_bar_aside{
+padding-top: 0px;
+}
+
+/*--------------MARSEILLE ACTIVITIES---------------*/
+.bottom{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+}
+
+.card_bottom_tall{
+ width: 97%;
+ height: auto;
+ margin-left: 5px;
+ margin-bottom: 10px;
+}
+.img_card_bottom_tall{
+  height: 170px;
+}
+
+.card_bottom_small{
+ width: 100%;
+ height: auto;
+ margin-bottom: 10px;
+}
+.img_card_bottom_small{
+  height: 150px;
+  padding-bottom: 2px;
+}
+.card_small1, .card_small2, .card_small3, .card_small4{
+ height: 190px;
+}
+.link_bottom{
+  height: 250px;
+}
+footer{
+  width: 100%;
+  height: 280px;
+}
+.ul_footer_about, .ul_footer_accommodation, .ul_footer_assistance{
+  list-style: none;
+}
+}
