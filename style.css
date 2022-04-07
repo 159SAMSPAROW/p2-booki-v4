@@ -363,7 +363,7 @@ body{
   /*-----------------------HEADER-----------------------------*/
   header{
     display: flex;
-    width: 100%;
+
 }
 #logo {
     margin-right: 65%;
@@ -378,7 +378,6 @@ body{
     margin-left: 50px;
     width: 100px;
     height: 50px;
-    
 }
 .li_head:hover{
     text-decoration: overline 2px;
@@ -461,7 +460,6 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
-
 .filters-icon {
   display: flex;
   position: relative;
@@ -483,7 +481,6 @@ body{
   font-size: 19px;
   
 }
-
 
 .filters-text-1 {
   font-weight: 700;
@@ -517,6 +514,7 @@ body{
   margin: 7px;
   width: 165px;
 }
+
 .filter-checkbox {
   visibility: hidden;
   width: 0px;
@@ -525,6 +523,7 @@ body{
   padding: 0;
   
 }
+
 .filter-label{
   width: 185px;
   height: 34px;
@@ -540,7 +539,6 @@ body{
   border-radius: 25px;
   margin-right: 40px;
 }
-
 .filter-label3{
   width: 180px;
   height: 34px;
@@ -548,7 +546,6 @@ body{
   border-radius: 25px;
   margin-right: 40px;
 }
-
 .filter-label4{
   width: 230px;
   height: 34px;
@@ -560,7 +557,6 @@ body{
   background-color:var(--main2);
   opacity: 0.8;
 }
- 
  a{
    text-decoration: none;
    color: var(--main5);
@@ -584,7 +580,7 @@ body{
     height: 635px;
     padding-top: 5px;
     padding-bottom: 20px;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -670,7 +666,7 @@ font-size: medium;
       display: flex;
       flex-direction: column;
       padding-top: 20px;
-      border-radius: 20px;
+      border-radius: 10px;
       background-color: var(--secondary);
 }
 .box_card_aside > h2{
@@ -697,7 +693,7 @@ font-size: medium;
 .aside_body{
       width: auto;
       color: var(--main5);
-      float:right;
+      float: right;
       height: 10px;
       font-size: large;
 }
@@ -706,7 +702,6 @@ font-size: medium;
       background-color: var(--secondary);
       margin-left: 30%;
     }
-
 .card_aside:hover{
       color: var(--main);
       font-weight: bold;
@@ -718,15 +713,16 @@ font-size: medium;
     margin-left: 5px;
 }
 /* --------------------------SECTION ACTIVITES---------------------- */
-.activites_marseille > h2{
-  margin-left: 20px;
+#activities_marseille > h2{
+ margin: 20px;
+ padding-left: 10px;
 }
 .bottom{ 
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
-  font-size: large;
+  
   margin: -5px;
 }
 
@@ -736,23 +732,21 @@ font-size: medium;
   border: 5px solid var(--main3);
   border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
- 
-  
 }
 .img_card_bottom_tall{
   width: 100%;
-  height: 325px;
-  padding-bottom: 20px;
+  height: 335px;
   border-radius: 10px;
+  padding-bottom: 10px;
   object-fit: cover; 
   display: flex;
 }
 
 .card_bottom_small{
   width: 25%;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  
 }
 .img_card_bottom_small{
   width: 100%;
@@ -765,7 +759,7 @@ font-size: medium;
 .card_small1{
   height: 210px;
   border: 5px solid var(--main3);
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
   margin-left: 10px;
   margin-right: 10px;
@@ -775,28 +769,26 @@ font-size: medium;
 .card_small2{
   height: 135px;
   border: 5px solid var(--main3);
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
   padding-right: 1px;
-  
 }
 .card_small3{
   height: 180px;
   border: 5px solid var(--main3);
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
   margin-left: 10px;
-  
   margin-bottom: 20px;
   padding-right: 1px;
 }
 .card_small4{
   height: 160px;
   border: 5px solid var(--main3);
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
   margin-left: 10px;
   
@@ -805,7 +797,6 @@ font-size: medium;
   padding-right: 1px;
 
 }
-
 .img_small1{
   height: 180px;
 }
@@ -816,11 +807,15 @@ font-size: medium;
   height: 150px;
 }
 .img_small4{
-  height: 110px;
+  height: 130px;
 }
 
 .link_bottom{
   text-decoration: none;
+}
+h5{
+  margin: 2px;
+  font-size: large;
 }
 /*------------------- FOOTER-------------------*/
 footer{
