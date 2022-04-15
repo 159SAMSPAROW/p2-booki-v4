@@ -359,6 +359,8 @@ body{
     width: 100%;
     margin: 5px;
     box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   /*-----------------------HEADER-----------------------------*/
   header{
@@ -419,7 +421,7 @@ body{
     border-top-right-radius: 5px; 
     background-color: var(--main);
     font-size: 15px;
-    font-weight: bold;
+    text-shadow:  0px 0px 0px #000;
     color:var(--main3);
 }
 .submit:hover{
@@ -614,7 +616,7 @@ body{
 }
 .card:hover{
       color:var(--main);
-      font-weight:bold;  
+      text-shadow:  0px 0px 0px #000;
 }
 h4,h2{
        margin: 2px;
@@ -704,7 +706,7 @@ font-size: medium;
     }
 .card_aside:hover{
       color: var(--main);
-      font-weight: bold;
+      text-shadow:  0px 0px 0px #000;
 }
 .notation_bar_aside{
       padding-top: 30px;
@@ -825,12 +827,13 @@ footer{
   border-radius: 10px;
   display: flex;
   justify-content: flex-start;
+  margin-top: 30px;
  
 }
 
 .footer_link:hover{
   color: var(--main);
-  font-weight: bold;
+  text-shadow:  0px 0px 0px #000;
 }
 .about{
   width: 100px;
@@ -849,5 +852,5 @@ footer > ul{
 }
 .ul_footer_title{
   font-size: large;
-  font-weight: bold;
+  
 }

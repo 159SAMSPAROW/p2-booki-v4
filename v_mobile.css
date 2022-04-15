@@ -4,9 +4,8 @@
       box-sizing: border-box;
     }
     header{
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
+  
+      flex-wrap: wrap; 
     }
     #logo{
         width: 100%;
@@ -29,7 +28,7 @@
     
     .li_head:hover{
         text-decoration: underline;
-        font-weight: bold;
+        text-shadow:  0px 0px 0px #000;
         color:var(--main);
     }
  /*-----------------MAIN--------------------------*/
@@ -50,6 +49,7 @@
 
     .search{
         width: 100%;
+        height: 40px;
     }
     .search_icon{
         width: 30px;
@@ -62,19 +62,18 @@
   
     .phone_submit{
         display: flex;
-        width: 45px;
-        height: 45px;
-        margin: 5px;
+        width: 50px;
+        height: 44px;
         padding-right: 2px;
-        
         border-radius: 15px; 
         background-color: var(--main);
         color: var(--main3);
-        font-weight: bold;
+        text-shadow:  0px 0px 0px #000;
         color: var(--main3);  
     }
     .fa-magnifying-glass{
-        margin: 10px;
+    margin-top: 12px;
+    margin-left: 5px;
     }
     
     
@@ -94,9 +93,10 @@
     .filters-container-3{
       margin-left: 25px;
     } 
-    /*.filters-container-4{
-
-    }*/
+    .filters-container-4{
+      margin-left: -5px;
+    }
+    
 
 
     .filter-label, .filter-label1, .filter-label2, .filter-label3{
@@ -117,6 +117,7 @@
     }
    .filter-label4{
        width: 200px;
+      margin-left: 7px;
    }
 
 
@@ -126,8 +127,9 @@
     }
 
     /*.filters-text-2{}
-    .filters-text-3{}
-    .filters-text-4{}
+    .filters-text-3{}*/
+    .filters-text-4{
+    }
     */
 
  /*-----------------------------BOX CARD ET BOX CARD ASIDE-------------*/
@@ -139,12 +141,14 @@
     
   }
   .box_card > h2 {
-    width: 70%;
+    width: 100%;
   }
   .box_card{  
-    width: 95%;
-    flex-direction: column;
+    width: 100%;
     background-color: var(--main3);
+    flex-wrap: inherit;
+    flex-direction: column;
+  
   }
   .card{
     width: 100%;
@@ -156,8 +160,6 @@
   }
   .box_card_aside{
     width: 100%;
-  
-    display: flex;
     flex-direction: column;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -208,7 +210,7 @@
     width: 95%;
     height: 160px;
     padding-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 8px;
     margin-top: 6px;
   }
   .card_bottom_small{
@@ -220,9 +222,8 @@
   .img_card_bottom_small{
     width: 97%;
     height: 160px;
-    margin-left: 6px;
     margin-top: 6px;
-   
+    margin-left: 7px;
     padding-bottom: 2px;
   }
   .card_small1, .card_small2, .card_small3, .card_small4{

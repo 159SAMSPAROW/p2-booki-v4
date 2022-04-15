@@ -1,7 +1,7 @@
 @media screen and (max-width: 991px) {
 
     body{
-      width: 100%;
+      
       
    }
    main {
@@ -43,12 +43,12 @@
     margin-left: 107px;
   } 
   .filters-container-4{
-    margin-left: 5px;
+    margin-left: 7px;
   }
  /*---------------------------BOX CARD & CARS ASIDE-------------*/
 #box_card_box_card_aside{
   width: 100%;
-  display: flex;
+  
   flex-direction: column-reverse;
 }
 /*----------------------BOX CARDS-----------------------------*/
@@ -74,10 +74,9 @@
 }
 /*------------------------BOX CARD ASIDE----------------------*/
 .box_card_aside{
-  width: 100%;
   height: 700px;
   display: flex;
-  flex-direction: column;
+ 
   border: none;
   background-color: var(--main3);
   margin-top: 10px;
@@ -111,6 +110,9 @@
  .aside_body > p{
    margin: 2px;
  }
+ .card_body > p{
+  margin-top: 10px;
+ }
  .notation_bar_aside{
 padding-top: 0px;
 }
@@ -128,23 +130,29 @@ padding-top: 0px;
 }
 
 .card_bottom_tall{
- width: 97%;
+ width: 98%;
  height: auto;
  margin-bottom: 10px;
+
 }
 .img_card_bottom_tall{
-  width: 100%;
+  width: 99%;
   height: 170px;
+  margin: 5px;
 }
-
+.img_card_bottom_tall1{
+  padding-bottom: 2px;
+}
 .card_bottom_small{
- width: 97%;
+ width: 98%;
  height: auto;
+ 
  
 }
 .img_card_bottom_small{
-  height: 170px;
+  height: 160px;
   padding-bottom: 2px;
+  width: 100%;
 }
 .card_small1, .card_small2, .card_small3, .card_small4{
   width: 100%;
@@ -155,7 +163,6 @@ padding-top: 0px;
 footer{
   width: 99%;
   height: 280px;
-  margin-left: 0px;
 }
 .ul_footer_about, .ul_footer_accommodation, .ul_footer_assistance{
   list-style: none;
