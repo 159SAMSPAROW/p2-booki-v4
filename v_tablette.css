@@ -1,32 +1,9 @@
 @media screen and (max-width: 991px) {
-
-    body{
-      
-      
-   }
-   main {
-     width: 100%;
-   }
+ 
    /*------------------------ NAV / UL------------------------*/
   #logo{
-     margin-right: 25%;
+     margin: 10px 150px 0px 20px;
    }
-   header{
-     width: 100%;
-    display: flex;
-   }
-   .li_head{
-     width: 100%;
-   }
-   .li_head:hover{
-       text-decoration: overline;  
-   }
-  .head_tittle > h1{
-    width: 100%;
-  }
-  h1{
-    width: 100%;
-  }
   /*-----------------------BARRE DE RECHERCHE--------------------*/
    .phone_submit{
        display: none;
@@ -47,42 +24,30 @@
   }
  /*---------------------------BOX CARD & CARS ASIDE-------------*/
 #box_card_box_card_aside{
-  width: 100%;
-  
   flex-direction: column-reverse;
 }
 /*----------------------BOX CARDS-----------------------------*/
-.box_card > h2{
-
-}
-
 .box_card{
  width: 100%;
  height: 95%;
  display: flex;
- align-items: center;
- margin-top: 30px;
- margin-left: 0px;
+ margin-left: -5px;
 }
 .card{
+  width: 27%;
  height: 250px;
- margin-left: 10px;
+ 
  margin-bottom: 20px;
-}
-.text_more{
-  margin-left: 20px;
 }
 /*------------------------BOX CARD ASIDE----------------------*/
 .box_card_aside{
   height: 700px;
   display: flex;
- 
   border: none;
   background-color: var(--main3);
   margin-top: 10px;
-  margin-bottom: 20px;
   padding-top: 10px;
-  padding-bottom: 20%;
+  padding-bottom: 40px
 }
 .fa-arrow-trend-up{
   background-color: var(--main3);
@@ -98,56 +63,45 @@
   margin-bottom: 5px;
 }
 .card_aside{ 
-  width: 100%;  
+   width: 98%;
   height: 250px;
-  margin: 2px;
-  margin-bottom: 100px;
+  margin: -2px;
 }
 
- .img_aside{
-   width: 97%;
- }
- .aside_body > p{
+.img_aside{
+   width: 70%;
+}
+.aside_body > p{
    margin: 2px;
- }
- .card_body > p{
+}
+.card_body > p{
   margin-top: 10px;
- }
- .notation_bar_aside{
+}
+.notation_bar_aside{
 padding-top: 0px;
 }
 
 /*--------------MARSEILLE ACTIVITIES---------------*/
-#activities_marseille{
-  width: 100%;
-}
 .bottom{
-  width: 100%;
   height: auto;
   display: flex;
   flex-direction:column ;
-  align-items: center;
 }
 
 .card_bottom_tall{
- width: 98%;
+width: 95%;
  height: auto;
  margin-bottom: 10px;
-
+ 
 }
 .img_card_bottom_tall{
-  width: 99%;
-  height: 170px;
-  margin: 5px;
+  width: 100%;
+  height: 170px; 
 }
-.img_card_bottom_tall1{
-  padding-bottom: 2px;
-}
+
 .card_bottom_small{
- width: 98%;
+ width: 95%;
  height: auto;
- 
- 
 }
 .img_card_bottom_small{
   height: 160px;
@@ -157,14 +111,15 @@ padding-top: 0px;
 .card_small1, .card_small2, .card_small3, .card_small4{
   width: 100%;
  height: 190px;
- margin-left: -5px;
+ margin: 10px 0px 10px 0px;
 }
 
 footer{
-  width: 99%;
   height: 280px;
 }
 .ul_footer_about, .ul_footer_accommodation, .ul_footer_assistance{
   list-style: none;
+  padding: 10px;
 }
+
 }

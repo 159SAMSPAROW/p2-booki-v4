@@ -37,6 +37,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    text-shadow: 0px 0px 0px #000;
   }
   
   /* Grouping content
@@ -357,18 +358,19 @@
 } 
 body{
     width: 100%;
-    margin: 5px;
     box-sizing: border-box;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+    padding-left: 2px;
+    padding-right: 10px;
+}
   /*-----------------------HEADER-----------------------------*/
-  header{
+header{
     display: flex;
-
+    margin-top: 20px;
+    height: 70px;
 }
 #logo {
-    margin-right: 65%;
+    height: 50px;
+    margin-right: 65%;  
 }
 .head{
     width: auto;
@@ -378,17 +380,17 @@ body{
 }
 .li_head {
     margin-left: 50px;
-    width: 100px;
+    padding-top: 15px;
+    width: 100%;
     height: 50px;
 }
 .li_head:hover{
-    text-decoration: overline 2px;
+    border-top: solid 2px var(--main);
     font-weight: bold;
 }
 .link{
     text-decoration:none;
     color: var(--main4);
-     font-size: 20px;
 }
 .link:hover{
   color: var(--main);
@@ -396,6 +398,7 @@ body{
 /*----------------------- TITRE / BARRE DE RECHERCHE-------*/  
 .head_title > h1{
     font-size: x-large;
+    font-weight: bold;
 }
 #location{
       display: flex;
@@ -405,20 +408,21 @@ body{
       width: 20px;
       padding: 7px;
       background-color: var(--secondary); 
-      border-radius: 5px 0 0 5px;
+      border-radius: 5px 0px 0px 5px;
       display: flex;
       text-align: center;
       justify-content: center;
 }
 .search{
       border: none;
+      font-weight: bold;
 }
 .submit{ 
     width:100px;
     height: 30px;
     border: none;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
     background-color: var(--main);
     font-size: 15px;
     text-shadow:  0px 0px 0px #000;
@@ -444,6 +448,7 @@ body{
 
 .filters > h2 {
   margin-right: 40px;
+  text-shadow: 0px 0px 0px #000;
 }                           
 .filters-container-1 {
   display: flex;
@@ -451,8 +456,7 @@ body{
 }
 .filters-container-2{
   display: flex;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
 .filters-container-3{
   display: flex;
@@ -481,7 +485,6 @@ body{
   height: 100%;
   color: var(--main);
   font-size: 19px;
-  
 }
 
 .filters-text-1 {
@@ -522,8 +525,7 @@ body{
   width: 0px;
   height: 0px;
   margin: 0;
-  padding: 0;
-  
+  padding: 0; 
 }
 
 .filter-label{
@@ -553,7 +555,6 @@ body{
   height: 34px;
   border: var(--main2) 2px solid;
   border-radius: 25px;
-
 }
 .filter-label:hover, .filter-label2:hover, .filter-label3:hover, .filter-label4:hover{
   background-color:var(--main2);
@@ -562,10 +563,10 @@ body{
  a{
    text-decoration: none;
    color: var(--main5);
- } 
+} 
   
   /*--------------------------------INFO BAR------------------------------------*/
-  .fa-circle-info{
+.fa-circle-info{
     color: var(--main);
     background-color:var(--main3) ;
 }
@@ -573,8 +574,7 @@ body{
 #box_card_box_card_aside{
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 /*------------------BOX HEBERGEMENT A MARSEILLE------------*/
 .box_card{ 
@@ -592,7 +592,7 @@ body{
 .card{
         width:30%;
         height: 245px;
-        margin-left: 15px;
+        margin-left: 20px;
         border:5px solid var(--main3);
         border-radius: 15px;
         background-color: var(--main3);
@@ -604,24 +604,25 @@ body{
       margin:5px;
 }
 .card_body > p{
-      margin-bottom: 1px;
-      
+      margin-bottom: 1px;     
 }
 .box_card > h2{
       display: flex;
       width: 100%; 
-      margin-top: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       margin-left: 10px;
-      
+      text-shadow: 0px 0px 0px #000;
 }
 .card:hover{
       color:var(--main);
       text-shadow:  0px 0px 0px #000;
 }
 h4,h2{
-       margin: 2px;
+      margin: 2px;
       color:var(--main5);
       margin-bottom: 5px;
+      font-weight: bold;
 }
 h4:hover{
       color: var(--main);
@@ -630,6 +631,8 @@ h4:hover{
       display: flex;
       width: 100%;
       margin-left: 10px;
+      margin-top: 20px;
+      font-size: small;
 }
 .text_more,a{
     text-decoration: none;
@@ -673,6 +676,7 @@ font-size: medium;
 }
 .box_card_aside > h2{
       margin-left: 20px;
+      text-shadow: 0px 0px 0px #000;
 }
 
 .card_aside{
@@ -703,7 +707,7 @@ font-size: medium;
       color: var(--main5);
       background-color: var(--secondary);
       margin-left: 30%;
-    }
+}
 .card_aside:hover{
       color: var(--main);
       text-shadow:  0px 0px 0px #000;
@@ -718,34 +722,34 @@ font-size: medium;
 #activities_marseille > h2{
  margin: 20px;
  padding-left: 10px;
+ text-shadow: 0px 0px 0px #000;
 }
 .bottom{ 
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
-  
-  margin: -5px;
 }
 
 .card_bottom_tall{
-  width: 25%;
-  height: 370px;
+  width: 23%;
+  height: 390px;
   border: 5px solid var(--main3);
   border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
 }
 .img_card_bottom_tall{
   width: 100%;
-  height: 335px;
-  border-radius: 10px;
+  height: 362px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 15px;
   padding-bottom: 10px;
   object-fit: cover; 
   display: flex;
 }
 
 .card_bottom_small{
-  width: 25%;
+  width: 23%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -763,53 +767,46 @@ font-size: medium;
   border: 5px solid var(--main3);
   border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
-  margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 15px;
-  padding-right: 1px;
+
 }
 .card_small2{
-  height: 135px;
+  height: 155px;
   border: 5px solid var(--main3);
   border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
-  margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  padding-right: 1px;
 }
 .card_small3{
-  height: 180px;
+  height: 150px;
   border: 5px solid var(--main3);
   border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
-  margin-left: 10px;
   margin-bottom: 20px;
-  padding-right: 1px;
 }
 .card_small4{
-  height: 160px;
+  height: 210px;
   border: 5px solid var(--main3);
   border-radius: 10px;
   box-shadow: 1px 1px 5px var(--main4);
-  margin-left: 10px;
-  
-  
   margin-bottom: 20px;
-  padding-right: 1px;
-
 }
 .img_small1{
   height: 180px;
 }
 .img_small2{
-  height: 100px;
+  height: 125px;
+  object-position: 30% 30%;
 }
 .img_small3{
-  height: 150px;
+  height: 120px;
+  object-position: 10% 10%;
 }
 .img_small4{
-  height: 130px;
+  height: 180px;
+  object-position: 40% 40%;
 }
 
 .link_bottom{
@@ -828,7 +825,7 @@ footer{
   display: flex;
   justify-content: flex-start;
   margin-top: 30px;
- 
+  text-shadow: 0px 0px 0px #000;
 }
 
 .footer_link:hover{
@@ -849,8 +846,9 @@ footer > ul{
   text-decoration: none;
   color: var(--main4);
   font-size: medium;
+  margin: 10px 0px 0px 0px;
 }
 .ul_footer_title{
   font-size: large;
-  
+  font-weight: bold;
 }
