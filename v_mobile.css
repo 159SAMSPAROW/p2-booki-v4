@@ -1,8 +1,10 @@
 @media screen and (max-width: 767px) {
     body{
-      padding: 2px;
-      margin-left: 2px;
       box-sizing: border-box;
+    }
+    main{
+      padding-left: 5px;
+      padding-right: 5px;
     }
     header{
       flex-wrap: wrap;
@@ -11,20 +13,19 @@
     #logo{
         width: 100%;
         height: 50px;
-        margin-left: 35%;
+        margin-left: 25%;
     }
     /*----------------HEADER---------------------*/
     nav{
         width: 100%;
     }
     .head{
-     padding-left: 5px;
+      padding: 0px;
     }
     .li_head{
-        margin-left: 5px;
-        margin-right: 100px;
-        padding-left: 7px;
+        height: 30px;
         font-size: large; 
+        margin:0 50px 10px 0px;
     }
     
     .li_head:hover{
@@ -37,19 +38,24 @@
     .head_title{
       display: flex;
       flex-wrap: wrap;
+      width: 95%;
+      margin-left: 2px;
     }
+ 
+    
     
 /*--------------------LOCATION BAR---------------------*/
     #location{
         width: 100%;
-      margin-top: 20px;
+      
+      margin: 20px 0px 20px 2px ;
     }  
     .fa-location-dot{
         margin: 7px;
         border-radius: 20px 20px 0 0;
     }
     .search{
-        width: 100%;
+        width: 70%;
         height: 40px;
     }
     .search_icon{
@@ -62,7 +68,7 @@
     }
     .phone_submit{
         display: flex;
-        width: 60px;
+        width: 47px;
         padding-right: 2px;
         border-radius: 15px; 
         background-color: var(--main);
@@ -77,9 +83,12 @@
 /*--------------FILTERS BAR--------------------*/
     .filters > h2{
         width: 100%;
+        font-size: 20px;
+       margin-bottom: 15px;
     }
     .filters{
         margin-left: 7px;
+  
     }
     .filters-container-1{
     margin-right: 40px;
@@ -120,6 +129,7 @@
         font-size: medium;
         margin: 10px;
    }
+/*------------------------------STARS BAR------------------------------*/
 
 
  /*-----------------------------BOX CARD ET BOX CARD ASIDE-------------*/
@@ -128,13 +138,14 @@
    }
    .box_card > h2 {
     width: 100%;
+    font-size: large;
+    text-shadow: 0px 0px 0px black;
    }
    .box_card{ 
-  
+    
     background-color: var(--main3);
     flex-wrap: inherit;
     flex-direction: column;
-  
    }
    .card{
     width: 100%;
@@ -143,6 +154,10 @@
    }
    .img_card{
     width: 97%;
+   }
+   .card_body > p {
+     font-size: small;
+     text-shadow: 0px 0px 0px black;
    }
    .box_card_aside{
     width: 100%;
@@ -166,14 +181,16 @@
     
    }
    h4{
-    font-size: larger;
+    font-size: medium;
+    text-shadow: 0px 0px 0px black;
    }
   
    .aside_body{
     font-size: 0.8rem;
+   
    }
    .notation_bar_aside{
-    padding-top: 45px;
+    padding-top: 70px;
    }
    .fa-arrow-trend-up{
     margin-left: 25%;
@@ -186,20 +203,23 @@
     flex-direction: column;
     margin: 2px;
   }
+  .link_bottom > h5{
+    font-size: 15px;
+    text-shadow: 0px 0px 0px black;
+    height: 200px;
+  }
   #activities_marseille > h2{
     margin: 10px 0px 5px 0px;
   }
   .card_bottom_tall{
     width: 100%;
-    height: 200px;
-    
-   
+    height: 210px;
   }
   .img_card_bottom_tall{
     width: 100%;
     height: 160px;
-    padding-bottom: 5px;
-    margin-top: 6px;
+   
+    
   }
   .card_bottom_small{
     width: 100%;
@@ -208,10 +228,11 @@
   .img_card_bottom_small{
     width: 100%;
     height: 160px;
-    margin-top: 6px;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
   }
-
+  .card_small1, .card_small2, .card_small3, .card_small4{
+    height: 210px;
+  }
   
 /*------------------------FOOTER----------------------*/
   footer{
