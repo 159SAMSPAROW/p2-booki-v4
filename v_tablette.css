@@ -1,10 +1,16 @@
 @media screen and (max-width: 991px) {
- 
+  body{
+    margin: 0px;
+  }
+  main{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
    /*------------------------ NAV / UL------------------------*/
   #logo{
      margin: 10px 150px 0px 20px;
    }
-  /*-----------------------BARRE DE RECHERCHE--------------------*/
+  /*-----------------------BARRE DE RECHERCHE-----------------*/
   #location{
     margin: 40px 0 40px 0;
   }
@@ -19,7 +25,7 @@
        display: none;
    }
   
-   /*----------------------BARRE DES FILTRES--------------------*/
+   /*----------------------BARRE DES FILTRES------------------*/
   .filters-container-1, .filters-container-2, .filters-container-3, .filters-container-4{
       margin-bottom: 10px;
   } 
@@ -33,22 +39,19 @@
   .filters-container-4{
     margin-left: 4px;
   }
- /*---------------------------BOX CARD & CARS ASIDE-------------*/
+ /*-----------------BOX CARD & CARS ASIDE----------------------*/
 #box_card_box_card_aside{
   flex-direction: column-reverse;
 }
-/*----------------------BOX CARDS-----------------------------*/
+/*-----------------------BOX CARDS-----------------------------*/
 .box_card{
  width: 100%;
  height: 95%;
  display: flex;
- margin-left: -5px;
+ 
 }
-.card{
-  width: 25%;
- height: 250px;
-}
-/*------------------------BOX CARD ASIDE----------------------*/
+
+/*-----------------------BOX CARD ASIDE------------------------*/
 .box_card_aside{
   width: 100%;
   height: 700px;
@@ -92,7 +95,7 @@
 padding-top: 0px;
 }
 
-/*--------------MARSEILLE ACTIVITIES---------------*/
+/*----------------------MARSEILLE ACTIVITIES--------------------*/
 .bottom{
   
   height: auto;

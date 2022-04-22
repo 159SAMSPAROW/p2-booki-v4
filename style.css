@@ -354,7 +354,7 @@
     --main5:black;
   }
 *{
-    font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
 } 
 body{
     width: 100%;
@@ -405,12 +405,10 @@ header{
     font-size: x-large;
     font-weight: bold;
 }
-.head_title > p{
-  color: var(--main5);
-}
+
 #location{
       display: flex;
-      justify-content: flex-start;
+      justify-content: flex-start; 
 }
 .fa-location-dot{
   margin: 10px;
@@ -425,9 +423,9 @@ header{
       justify-content: center;
 }
 .search{
-      border: none;
-      font-weight: bold;
+      border: 1px solid var(--secondary);
       width: 250px;
+      font-weight: 900;
       text-shadow: 0px 0px 0px var(--main5);
 }
 
@@ -439,8 +437,9 @@ header{
     border-top-right-radius: 12px; 
     background-color: var(--main);
     font-size: 15px;
-    color:var(--main3);
+    color: var(--main3);
     font-weight: bold;
+    
   }
 .submit:hover{
   background-color: var(--main2);
@@ -450,7 +449,13 @@ header{
     display: none;
 }
 
-/*------------------FILTERS BAR----------------------------------*/
+  /*------------------INFO BAR-------------------------------*/
+.fa-circle-info{
+    color: var(--main3);
+    background-color:var(--main) ;
+}
+
+/*------------------------------FILTERS BAR-------------------*/
 .filters {
   display: flex;
   justify-content: flex-start;
@@ -536,23 +541,15 @@ header{
   background-color: var(--main2);
 }
 
- a{
-   text-decoration: none;
-   text-shadow: 0px 0px 0px var(--main5);
-} 
-  
-  /*--------------------------------INFO BAR----------------*/
-.fa-circle-info{
-    color: var(--main);
-    background-color:var(--main3) ;
-}
+
+
 /*-----------------------------SECTION BOX CARD & BOX CARD ASIDE-----------*/
 #box_card_box_card_aside{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;   
 }
-/*------------------BOX HEBERGEMENT A MARSEILLE------------*/
+/*-------------------BOX HEBERGEMENT A MARSEILLE------------*/
 .box_card{ 
     width: 66%;
     height: 625px;
@@ -563,6 +560,7 @@ header{
     flex-wrap: wrap;
     background-color: var(--secondary);
     color: var(--main4);
+    margin-right: 50px;
 }
 .card{
         width: 26%;
@@ -608,7 +606,7 @@ h4:hover{
       font-size: small;
       text-shadow: 0px 0px 0px var(--main5);
 }
-.text_more,a{
+.text_more, a{
     text-decoration: none;
     color:var(--main5);
 }
@@ -628,7 +626,7 @@ h4:hover{
 }   
     
     
-/*---------------------------stars bar-------------------------------*/
+/*-----------------------------STARS BAR-------------------------------*/
 .fa-star{
        font-size: 12px;
 
@@ -691,7 +689,7 @@ h4:hover{
       background-color: var(--secondary);
       margin-left: 30%;
 }
-.card_aside:hover{
+.aside_body:hover{
       color: var(--main);
       text-shadow:  0px 0px 0px #000;
 }
@@ -701,11 +699,13 @@ h4:hover{
       
 }
 
-/* --------------------------SECTION ACTIVITES---------------------- */
+/* --------------------------SECTION ACTIVITIES---------------------- */
 #activities_marseille > h2{
- margin: 20px 0 20px 0;
- padding-left: 10px;
- text-shadow: 0px 0px 0px #000;
+  font-size: large;
+  font-weight: bolder;
+  margin: 20px 0 20px 0;
+  padding-left: 10px;
+  text-shadow: 0px 0px 0px #000;
 }
 .bottom{ 
   width: 100%;
@@ -810,7 +810,6 @@ footer{
   display: flex;
   justify-content: flex-start;
   margin-top: 30px;
-
 }
 
 .footer_link:hover{
@@ -836,4 +835,5 @@ footer > ul{
 .ul_footer_title{
   font-size: large;
   font-weight: bold;
+  text-shadow: 0px 0px 0px var(--main5);
 }

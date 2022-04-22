@@ -33,7 +33,7 @@
         border-top: none;
         color:var(--main);
     }
- /*-----------------MAIN--------------------------*/
+    /*-----------------MAIN-----------------------*/
     .head_title{
       display: flex;
       flex-wrap: wrap;
@@ -43,7 +43,7 @@
  
     
     
-/*--------------------LOCATION BAR---------------------*/
+/*------------------LOCATION BAR------------------*/
     #location{
         width: 100%;
       
@@ -79,7 +79,7 @@
     }
     
     
-/*--------------FILTERS BAR--------------------*/
+/*------------------FILTERS BAR--------------------*/
     .filters > h2{
         width: 100%;
         font-size: 20px;
@@ -128,10 +128,8 @@
         font-size: medium;
         margin: 10px;
    }
-/*------------------------------STARS BAR------------------------------*/
 
-
- /*-----------------------------BOX CARD ET BOX CARD ASIDE-------------*/
+ /*-----------BOX CARD ET BOX CARD ASIDE---------*/
    #box_card_box_card_aside{
      flex-direction: column-reverse;
    }
@@ -187,14 +185,14 @@
    
    }
    .notation_bar_aside{
-    padding-top: 70px;
+    padding-top: 60px;
    }
    .fa-arrow-trend-up{
     margin-left: 25%;
     background-color: var(--secondary);
    }
 
-/*------------------MARSEILLE ACTIVITIES---------------*/
+/*------------------MARSEILLE ACTIVITIES------------*/
   .bottom{
     width: 95%;
     flex-direction: column;
