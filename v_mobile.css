@@ -15,7 +15,7 @@
         height: 50px;
         margin-left: 25%;
     }
-    /*----------------HEADER---------------------*/
+    /*--HEADER--*/
     nav{
         width: 100%;
     }
@@ -33,7 +33,7 @@
         border-top: none;
         color:var(--main);
     }
-    /*-----------------MAIN-----------------------*/
+    /*--MAIN--*/
     .head_title{
       display: flex;
       flex-wrap: wrap;
@@ -43,19 +43,19 @@
  
     
     
-/*------------------LOCATION BAR------------------*/
+/*--LOCATION BAR--*/
     #location{
         width: 100%;
-      
-      margin: 20px 0px 20px 2px ;
+        border: 2px solid var(--secondary);
+        border-radius: 18px;
+         margin: 20px 0px 20px 2px ;
     }  
     .fa-location-dot{
         margin: 7px;
         border-radius: 20px 20px 0 0;
     }
-    .search{
-        width: 70%;
-        height: 40px;
+    #search{
+       border: hidden;  
     }
     .search_icon{
         width: 30px;
@@ -69,6 +69,7 @@
         display: flex;
         width: 47px;
         padding-right: 2px;
+        padding-left: -100px;
         border-radius: 15px; 
         background-color: var(--main);
         color: var(--main3);
@@ -79,7 +80,7 @@
     }
     
     
-/*------------------FILTERS BAR--------------------*/
+/*--FILTERS BAR--*/
     .filters > h2{
         width: 100%;
         font-size: 20px;
@@ -129,7 +130,7 @@
         margin: 10px;
    }
 
- /*-----------BOX CARD ET BOX CARD ASIDE---------*/
+ /*--BOX CARD ET BOX CARD ASIDE--*/
    #box_card_box_card_aside{
      flex-direction: column-reverse;
    }
@@ -188,11 +189,11 @@
     padding-top: 60px;
    }
    .fa-arrow-trend-up{
-    margin-left: 25%;
+    margin-left: 40%;
     background-color: var(--secondary);
    }
 
-/*------------------MARSEILLE ACTIVITIES------------*/
+/*--MARSEILLE ACTIVITIES--*/
   .bottom{
     width: 95%;
     flex-direction: column;
@@ -215,6 +216,7 @@
    
     
   }
+
   .card_bottom_small{
     width: 100%;
     height: auto;
@@ -228,7 +230,7 @@
     height: 210px;
   }
   
-/*------------------------FOOTER----------------------*/
+/*--FOOTER--*/
   footer{
       width: 99%;
       height: 450px;
